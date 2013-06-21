@@ -1,0 +1,10 @@
+[
+	{ "keys": ["ctrl+alt+d"], "command": "pascal_format",
+	  "context": [{ "key": "selector", "operator": "equal", "operand": "source.pascal", "match_all": true }] },
+
+	{ "keys": ["alt+o"], "command": "switch_file", "args": {"extensions": ["pas", "dfm"]}, 
+	"context": [{ "key": "selector", "operator": "equal", "operand": "source.pascal" }] },
+
+	{ "keys": ["ctrl+shift+r"], "command": "delphi_switch_head_body", 
+	"context": [{ "key": "selector", "operator": "equal", "operand": "source.pascal" }] }
+]
